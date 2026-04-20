@@ -1,10 +1,10 @@
-#  SKU CS Department Portal
+<img width="1767" height="878" alt="Screenshot 2026-04-20 205701" src="https://github.com/user-attachments/assets/05249eb0-e6ac-4042-9211-ec8a90d77560" />#  SKU CS Department Portal
 
 A full-stack web application developed for managing department activities such as student data, job notifications, results, and announcements.
 
 Built using **React (Frontend)**, **Spring Boot (Backend)**, and **MySQL (Database)**.
 
-##  Features
+**Features**
 * Student & Staff Registration and Login
 * Role-based dashboards (Student / Staff)
 * Upload and view study materials
@@ -13,20 +13,19 @@ Built using **React (Frontend)**, **Spring Boot (Backend)**, and **MySQL (Databa
 * Gallery section for department activities
 * Responsive UI
 
-##  Tech Stack
-
- Frontend
+**Tech Stack**
+**Frontend**
 * React.js
 
-### Backend
+**Backend**
 * Spring Boot
 * Spring Web
 * Spring Data JPA
 
-## Database
+**Database**
 * MySQL
 
-## *Project Structure*
+***Project Structure***
 frontend/
   ├── src/
   │   ├── components/
@@ -41,14 +40,14 @@ backend/
   │   └── model/
   └── application.properties
 
-## Setup Instructions
+**Setup Instructions**
 
-### 1. Clone the Repository
+**1. Clone the Repository**
 
 git clone https://github.com/manjunathbabu-v/sku-cs-department-portal.git
 cd sku-cs-department-portal
 
-### 2. Backend Setup (Spring Boot)
+**2. Backend Setup (Spring Boot)**
 
 cd backend
 Update `application.properties`:
@@ -59,13 +58,11 @@ spring.datasource.password=your_password
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 server.port=8080
-```
 
-Run backend:
+**Run backend:**
 mvn spring-boot:run
 
-### 3. Frontend Setup (React)
-
+**3. Frontend Setup (React)**
 cd frontend
 npm install
 npm run dev
@@ -74,7 +71,7 @@ npm run dev
 POST /api/auth/register Register User
 POST /api/auth/login Login User
 
-##  Key Implementation Details
+**Key Implementation Details**
 
 * React Context API used for authentication state management
 * Role-based access control for Student and Staff
@@ -85,17 +82,22 @@ POST /api/auth/login Login User
 
 ## Screenshots
 
-<img width="1911" height="868" alt="image" src="https://github.com/user-attachments/assets/ac9cbe4b-9eb3-4938-a764-d90c25e67441" />
+<img width="1911" height="868" alt="Screenshot 2026-04-20 203747" src="https://github.com/user-attachments/assets/d21ba66e-797a-4189-a9aa-c9058f4735f3" />
                                                                Home page
-<img width="1313" height="782" alt="Screenshot 2026-04-20 204604" src="https://github.com/user-attachments/assets/fc211b39-6463-4758-9f9c-f45ed0bdd10f" />
+                                                               
+<img width="1313" height="782" alt="Screenshot 2026-04-20 204604" src="https://github.com/user-attachments/assets/9be3be02-fea1-44a0-9fe7-dd1b286084d2" />
                                                                 About page
-<img width="938" height="736" alt="image" src="https://github.com/user-attachments/assets/a46c3411-4fb0-4e99-bf74-8c70b895f058" />
+                                                                
+<img width="938" height="736" alt="Screenshot 2026-04-20 204711" src="https://github.com/user-attachments/assets/20de4280-7054-4bee-b480-a5913e334223" />                                              
                                                               Faculty page
-<img width="876" height="506" alt="image" src="https://github.com/user-attachments/assets/1d0dc7f1-67a9-4ecd-be9f-3480e6434ed1" />
+                                                              
+<img width="876" height="506" alt="Screenshot 2026-04-20 204743" src="https://github.com/user-attachments/assets/24d1dcdc-28ab-4d19-b58d-3da451e70808" />
                                                             Courses page
-<img width="894" height="446" alt="image" src="https://github.com/user-attachments/assets/56744987-5d16-42f4-8b34-dc16da2caf54" />
+                                                            
+<img width="894" height="446" alt="Screenshot 2026-04-20 204816" src="https://github.com/user-attachments/assets/bb2d2a96-7688-4e72-bd65-9a7e76a436d4" />
                                                               Gallery page
-<img width="1174" height="845" alt="localhost_5173_login (1)" src="https://github.com/user-attachments/assets/b442ca63-7283-42b1-8b99-429bb523b278" />
+                                                              
+<img width="1767" height="878" alt="Screenshot 2026-04-20 205701" src="https://github.com/user-attachments/assets/1eb5d4dc-a77f-4ff1-8b93-1b4b5b13093d" />
                                                                 Login page
 <img width="437" height="807" alt="image" src="https://github.com/user-attachments/assets/c3975435-3c20-47b2-8cbe-6f542604cd74" />
                                                                 Register Page
